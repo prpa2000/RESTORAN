@@ -1,0 +1,513 @@
+body{
+    background-image: url("./img/pozadina.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    min-height: 900px;
+    width: 100%;
+}
+.navbar-a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    background-color: teal;
+   
+}
+
+.auth h1{
+    font-size:20px;
+    color:white;
+    margin-bottom: 20px;
+}
+.auth form{
+    display: flex;
+    flex-direction: column;
+    padding: 90px;
+    background-color: white;
+    width: 200px;
+    gap:20px;
+}
+
+.auth input{
+    padding: 10px;
+    border:none;
+    border-bottom:1px solid gray;
+}
+
+.auth button{
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    color:white;
+    cursor:pointer;
+}
+.auth p{
+    font-size: 12px;
+    color: red;
+    text-align: center;
+}
+.auth span{
+    font-size:12px;
+    text-align: center;
+}
+.authspan{
+    color: teal;
+}
+.authspan:hover{
+    text-transform: uppercase
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap:20px;
+    background-color: white;
+    opacity: 70%;
+    padding: 15px;
+    border-radius: 5px;
+      
+}
+.container a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.container a:hover{
+    color:lightcoral;
+}
+
+
+
+.homecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    margin-left: 555px;
+    margin-right: 555px;
+    background-color: #2524228a;
+    color: #fffcf2;
+    border-radius: 15px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.homecontainer h2{
+    text-align: center;
+    font-size: 70px;
+    font-family: Times 'Times New Roman', Times, serif;
+}
+
+.aboutuscontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 300px;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.gric h3{
+  color: lightcoral;
+  text-align: center;
+}
+.ponuda h3{
+  color: lightcoral;
+  text-align: center;
+}
+.dodatnemogucnosti h3{
+  color: lightcoral;
+  text-align: center;
+}
+.aboutuscontainer p{
+  color: #fffcf2;
+  text-align: center;
+}
+.gric {
+    flex-basis: 30%;
+    background-color: #2524228a;
+    border-radius: 12px;
+    padding: 10px;
+  }
+  
+  .ponuda {
+    flex-basis: 30%;
+    background-color: #2524228a;
+    border-radius: 12px;
+    padding: 10px;
+  }
+  
+  .dodatnemogucnosti {
+    flex-basis: 30%;
+    background-color: #2524228a;
+    border-radius: 12px;
+    padding: 10px;
+  }
+  
+  .red h3 {
+    text-align: center;
+  
+    font-size: 30px;
+    font-family: "Smooch", cursive;
+  }
+  .red p {
+    text-align: center;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .workinghours-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 830px;
+    padding-right: 830px;
+  }
+  .workinghours{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #2524228a;
+   
+    padding: 20px 80px;
+    border-radius: 20px;
+  }
+
+  .satnica {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    text-align: center;
+  }
+  .satnica h2 {
+    font-size: 30px;
+  }
+  .satnica h1{
+    color: #ccc5b9;
+    font-weight: 400;
+    font-size: 20px;
+    
+  }
+  .satnica p{
+    color: #fffcf2;
+  }
+  .jelovnik{
+    padding-left: 676px;
+    padding-right: 676px;
+  }
+  
+  .meals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2524228a;  
+    gap:10px;
+    padding: 0px 100px;
+    border-radius: 5px;
+    margin-bottom: 80px;
+  }
+
+  .meal{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .meal h2{
+    color: #fffcf2;
+  }
+  .meal p{
+    color: #fffcf2;
+    font-weight: 500;
+  }
+  .meal .linkfrommenu p{
+    color: #fffcf2;
+    
+  }
+  .meal span{
+    color: #fffcf2;
+    font-size: 35px;
+  }
+
+  img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    background-color: black;
+    border-radius: 10px;
+  }
+
+  .meals button{
+    border: none;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    font-weight: 200;
+    color: #fffcf2;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: large;
+  }
+
+.h1meals{
+  text-align: center;
+  color:#fffcf2;
+}
+.delete{
+  display: flex;
+  justify-content: center;
+  background-color: #db3a34;
+}
+.delete:hover{
+  background-color: #6e1e1b;
+}
+.update{
+  display: flex;
+  justify-content: center;
+  background-color:#43aa8b;
+}
+.update:hover{
+  background-color: #245e4c;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  gap:20px;
+  margin-top: 150px;
+  background-color: #2524228a;
+  margin-left: 550px;
+  margin-right: 550px;
+  padding: 60px;
+  border-radius: 10px;
+}
+.updateform{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  margin-top: 150px;
+  color: #fffcf2;
+  background-color: #2524228a;
+  margin-left: 765px;
+  margin-right: 765px;
+  padding: 60px;
+  border-radius: 10px;
+
+}
+
+.addinput{
+  width: 250px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid gray;
+}
+.form label{
+  color:#fffcf2;
+}
+.formButton{
+  border: none;
+  padding: 10px;
+  background-color: lightcoral;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+.form h3 {
+  color: #fffcf2;
+}
+.form span{
+  color: #fffcf2;
+}
+.h1add{
+  color: lightcoral;
+  
+}
+.mealdesc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mealbtns{
+  display: flex;
+  margin-top: 15px;
+  flex-direction: row;
+  gap: 10px;
+}
+.contact-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.add-container{
+  padding-left: 212px;
+  padding-right: 212px;
+}
+.update-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+@media(max-width:900px){
+  
+  .container{
+    flex-direction: column;
+    padding: 15px;
+    padding-bottom: 10px;
+    position: static;
+  }
+
+  .h1add{
+    text-align: center;
+    font-size: 25px;
+  }
+ 
+  .contact-container span{
+    text-align: center;
+  }
+  .hcc {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .homecontainer{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+ 
+  .jelovnik{
+    padding-left: 3px;
+    padding-right: 3px;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutuscontainer{
+    padding-left: 3px;
+    padding-right: 3px;
+    justify-content: center;
+    align-items: center;
+  }
+  .gric{
+    width: 400px;
+    text-align: center;
+  }
+  .ponuda{
+    width: 400px;
+    text-align: center;
+  }
+  .dodatnemogucnosti{
+    width: 400px;
+    text-align: center;
+  }
+  .workinghours-container{
+    padding-right:82px;
+    padding-left: 82px;
+    justify-content: center;
+    align-items: center;
+  }
+  .meals{
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .contact-container{
+    
+    padding-left: 220px;
+    padding-right: 220px;
+   justify-content: center;
+   align-items: center;
+  }
+  .form{
+     justify-content: center;
+   align-items: center;
+   
+    gap: 2px;
+    margin-top: 25px;
+    margin-left: -450px;
+    margin-right: -450px;
+  }
+  .add-container{
+    padding-left: 201px;
+    padding-right: 201px;
+   justify-content: center;
+   align-items: center;
+  }
+  .add-container .form{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: -120px;
+    margin-right: -120px;
+    margin-top: 50px;
+  }
+  .add-container input{
+    width: 200px;
+   margin-top: 5px;
+  }
+  .add-container label{
+    margin-top: 20px;
+  }
+  .add-container button{
+    margin-top: 20px;
+  }
+  .update-container{
+    padding-left: 212px;
+    padding-right: 212px;
+   justify-content: center;
+   align-items: center;
+  }
+  .updateform{
+    justify-content: center;
+    align-items: center;
+    
+     gap: 2px;
+     margin-top: 25px;
+     margin-left: -450px;
+     margin-right: -450px;
+  }
+  .update-container input{
+    width: 200px;
+   margin-top: 5px;
+  }
+  .update-container label{
+    margin-top: 20px;
+  }
+  .update-container button{
+    margin-top: 20px;
+  }
+  }
+
+
+.auth p{
+  color: rgb(228, 4, 4);
+  font-size: 15px;
+}
+
+.error{
+  color: red;
+}
